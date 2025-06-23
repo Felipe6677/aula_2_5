@@ -1,4 +1,4 @@
-// Objeto inspirado em um carro
+
 const carro = {
   modelo: "Fusca",      
   ano: 1973,          
@@ -22,7 +22,7 @@ const carro = {
       console.log("O carro já está ligado.");
     }
   },
-  desligar: function() { // Método para desligar o carro
+  desligar: function() { 
     if (this.isLigado) {
       this.isLigado = false;
       console.log("O carro foi desligado.");
@@ -32,7 +32,7 @@ const carro = {
   }
 };
 
-// Exemplo de uso:
+
 console.log(carro.modelo); 
 console.log(carro.ano); 
 console.log(carro.proprietarios[1]); 
